@@ -1,0 +1,110 @@
+body{
+    margin: 0 auto;
+    background-color: #f8f8f8;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    box-shadow: 2px 2px 4px lightgray;
+    text-align: center;
+}
+
+
+header img{
+    margin-top: 15px;
+    height: 50px;
+    padding-left: 40px;
+}
+
+.logout{
+    float: right;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+main{
+    clear: both;
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    border-bottom: solid 2px #31A263;
+    font-size: 20px;
+}
+.form_contents{
+    margin: 0 auto;
+    border: lightgray solid 2px;
+    width: 620px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px lightgray;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+.form_contents p{
+    margin-left: 20px;
+    text-align: left;
+}
+
+.info img{
+    float: left;
+    width: 110px;
+    height: 110px;
+    border: 2px lightgray solid;
+    padding: 10px;
+    margin-right: 40px;
+    margin-left: 30px;
+}
+
+.info{
+    padding: 1em;
+    border-bottom: 1px lightgray dashed;
+    height: 150px;
+    text-align: left;
+}
+
+.name, .mail, .password{
+    padding: 10px;
+}
+
+
+.comments{
+    clear: both;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.button1{
+    border: 1px solid lightgray;
+    padding: 6px 50px 4px 50px;
+    color: white;
+    background-color: #31A263;
+    border-radius: 5px;
+    border-bottom: solid 2px gray;
+    widows: 200px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: gray;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13px;
+    border-top: lightgray solid 2px;
+}
